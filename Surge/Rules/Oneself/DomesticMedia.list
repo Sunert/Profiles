@@ -1,0 +1,84 @@
+
+# > AcFun
+USER-AGENT,AcFun*
+DOMAIN-SUFFIX,acfun.cn
+DOMAIN-SUFFIX,acfun.com
+DOMAIN-SUFFIX,acfun.tv
+DOMAIN-SUFFIX,aixifan.com
+
+# > Bilibili
+USER-AGENT,*bili*
+DOMAIN-KEYWORD,bilibili
+DOMAIN-SUFFIX,acgvideo.com
+DOMAIN-SUFFIX,hdslb.com
+
+# > iQiyi
+USER-AGENT,QIYI*
+USER-AGENT,iQiYi*
+USER-AGENT,PPStream*
+USER-AGENT,QYPlayer*
+DOMAIN-SUFFIX,iqiyi.com
+DOMAIN-SUFFIX,iqiyipic.com
+DOMAIN-SUFFIX,qy.net
+DOMAIN-SUFFIX,71.am
+IP-CIDR,101.227.0.0/16
+IP-CIDR,101.224.0.0/13
+IP-CIDR,119.176.0.0/12
+
+# > Kugou & Kuwo
+DOMAIN-SUFFIX,kugou.com
+USER-AGENT,%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90*
+DOMAIN-SUFFIX,kuwo.cn
+DOMAIN-SUFFIX,koowo.com
+
+# > Letv
+DOMAIN-SUFFIX,api.mob.app.letv.com
+DOMAIN-SUFFIX,letv.com
+
+# > MGTV
+USER-AGENT,MGTV*
+DOMAIN-SUFFIX,hunantv.com
+DOMAIN-SUFFIX,mgtv.com
+
+# > Migu
+USER-AGENT,MiguVideo*
+USER-AGENT,%E5%92%AA%E5%92%95%E8%A7%86%E9%A2%91
+DOMAIN-SUFFIX,cmvideo.cn
+DOMAIN-SUFFIX,migu.cn
+DOMAIN-SUFFIX,miguvideo.com
+
+# > MOOMusic
+USER-AGENT,MOO%E9%9F%B3%E4%B9%90*
+
+# > QQMusic
+USER-AGENT,QQ%e9%9f%b3%e4%b9%90*
+USER-AGENT,QQMusic*
+DOMAIN-SUFFIX,*music.qq.com
+DOMAIN-SUFFIX,y.qq.com
+DOMAIN,aqqmusic.tc.qq.com
+
+# > Tencent Video
+USER-AGENT,live4iphone*
+USER-AGENT,qqlive4iphone*
+USER-AGENT,TencentMidasConnect*
+DOMAIN-SUFFIX,v.qq.com
+DOMAIN-SUFFIX,video.qq.com
+
+# > Xiami Music
+USER-AGENT,xiami*
+DOMAIN-SUFFIX,xiami.com
+DOMAIN-SUFFIX,xiami.net
+
+# > Youku
+USER-AGENT,Youku*
+USER-AGENT,%E4%BC%98%E9%85%B7*
+DOMAIN-SUFFIX,soku.com
+DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,ykimg.com
+IP-CIDR,106.11.0.0/16
+# > 卧龙影视
+DOMAIN-SUFFIX,wolong.tv
+# > 小小影视
+DOMAIN-SUFFIX,xiaoxiaoapps.com
+# > 爱美剧
+DOMAIN-SUFFIX,mjomj.com

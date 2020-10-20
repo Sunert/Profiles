@@ -1,0 +1,10 @@
+#!name=Block YouTube Advertising
+#!desc=跳过 YouTube 视频片头广告，YouTube Premium 勿使用否则遇片头广告卡黑屏。
+#!system=ios
+
+[Script]
+# > By Choler
+http-request ^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) script-path=https://raw.githubusercontent.com/Choler/Surge/master/Script/YouTube.js
+
+[MITM]
+hostname = %APPEND% *.googlevideo.com 

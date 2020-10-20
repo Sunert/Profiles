@@ -1,0 +1,9 @@
+# > Speedtest by Ookla
+USER-AGENT,SpeedTest*
+DOMAIN-KEYWORD,speedtest
+
+# > Speed Test
+DOMAIN-SUFFIX,speedtest.net
+DOMAIN-SUFFIX,netspeedtestmaster.com
+DOMAIN,speedtest.macpaw.com
+

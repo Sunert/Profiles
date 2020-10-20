@@ -1,0 +1,9 @@
+payload:
+  # > Apple News
+  - DOMAIN,gateway.icloud.com,PROXY
+  - DOMAIN,gspe1-ssl.ls.apple.com
+  - DOMAIN-SUFFIX,apple.news
+  - DOMAIN,news-client.apple.com
+  - DOMAIN,news-edge.apple.com
+  - DOMAIN,news-events.apple.com
+  - DOMAIN,apple.comscoreresearch.com
