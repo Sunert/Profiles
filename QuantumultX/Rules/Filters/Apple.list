@@ -21,3 +21,26 @@ IP-CIDR,144.178.0.0/19,Apple
 IP-CIDR,192.35.50.0/24,Apple
 IP-CIDR,198.183.17.0/24,Apple
 IP-CIDR,205.180.175.0/24,Apple
+
+# TestFlight
+DOMAIN,beta.apple.com,PROXY
+DOMAIN,testflight.apple.com,PROXY
+
+# Block iOS Update
+DOMAIN,mesu.apple.com,REJECT
+DOMAIN,gdmf.apple.com,REJECT
+DOMAIN,updates-http.cdn-apple.com,REJECT
+DOMAIN,xp.apple.com,REJECT
+
+# > App Store Connect
+DOMAIN,appstoreconnect.apple.com,Apple
+DOMAIN,iosapps-ssl.itunes.apple.com,Apple
+DOMAIN,itcmobile.itunes.apple.com,Apple
+
+# App Store
+# Store content such as apps, books, and music
+DOMAIN-SUFFIX,apps.apple.com,PROXY
+DOMAIN-SUFFIX,itunes.apple.com,PROXY
+DOMAIN-SUFFIX,itunes-apple.com.akadns.net,PROXY
+DOMAIN-SUFFIX,mzstatic.com,PROXY
+DOMAIN,ppq.apple.com,PROXY
