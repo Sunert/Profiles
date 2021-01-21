@@ -343,6 +343,10 @@ DOMAIN,adx.yiche.com,REJECT
 DOMAIN,log.ycapp.yiche.com,REJECT
 # > ByteDance
 DOMAIN,api-access.pangolin-sdk-toutiao.com,REJECT
+DOMAIN,sf*-ttcdn-tos.pstatp.com,REJECT
+# > BiliBili
+USER-AGENT,https:\/\/api\.bilibili\.com\/x\/v2\/dm\/ad,REJECT
+USER-AGENT,https:\/\/app\.bilibili\.com\/x\/v2\/(splash|search\/(defaultword|square)),REJECT
 
 # (C)
 # > CNTV
