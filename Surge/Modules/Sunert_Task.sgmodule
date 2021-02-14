@@ -1,16 +1,15 @@
-#!name=Task - By Flyideas
+#!name=Task - By Sunert
 #!desc=该模块适用于定时签到:集成Sunert签到脚本。建议本地安装以便自定义修改签到时间。
 #!system=ios
 
 # GitHub主页(https://github.com/Sunert/Scripts)
-# TG聊天群 (https://t.me/Suntany)
+# TG聊天群 (https://t.me/EveryLucky)
 # 定时脚本
 
 [Script]
 # 定时脚本
 
 # > 电视节目预告
-# 常用卫视代码北京: btv1 | 湖南: hunan | 浙江: zhejiang|河南: henan| 江苏: jiangsu|广东: guangdong
 电视节目预告 = type=cron,cronexp=0 0 8 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/tvpreview.js,script-update-interval=0
 
 # > 12306余票及列车时刻表查询
@@ -47,13 +46,16 @@
 新浪新闻 = type=cron,cronexp=0 5 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/sinanews.js
 
 # > 中青看点极速版 
-中青看点极速版 = type=cron,cronexp=35 */5 */3 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js,script-update-interval=0
+中青看点极速版 = type=cron,cronexp=35 */15 */3 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js,script-update-interval=0
+
+# > 中青看点自动阅读
+中青看点阅读 = type=cron,cronexp=*/5 */3 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/Youth_Read.js,script-update-interval=0
 
 # > 数码之家
 数码之家 = type=cron,cronexp=0 7 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/mydigit.js,script-update-interval=0
 
-# > 京喜
-京喜 = type=cron,cronexp=0 5 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jingxi.js,script-update-interval=0
+# > 聚看点
+聚看点 = type=cron,cronexp=0 5 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jukan.js,script-update-interval=0
 
 # > 谷歌翻译
 谷歌翻译 = type=cron,cronexp=0 5 10 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/translate.js,script-update-interval=0
