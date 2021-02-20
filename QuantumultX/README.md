@@ -26,6 +26,8 @@ https://github.com/NobyDa/Script
 * 本人(Sunert)脚本库:  <br>
 https://gitee.com/Sunert/Scripts
 
+### [anti-AD 广告过滤官网](https://anti-ad.net/)<br>
+ > https://anti-ad.net/
 
 ------------------------------------------
 
