@@ -1,4 +1,7 @@
 # Sunert https://github.com/Sunert/Scripts/tree/master/Task
+
+cron "20 11 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/moji.js, tag=墨迹天气
+
 cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/tvpreview.js, tag=节目预告
 
 cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/trainquery.js, tag=12306
@@ -30,3 +33,5 @@ cron "4 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/ma
 cron "4 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jukan.js, tag=聚看点
 
 cron "20 11 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/baidu_speed.js, tag=百度极速
+
+
