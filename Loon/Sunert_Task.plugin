@@ -6,8 +6,6 @@ cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/
 
 cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/trainquery.js, tag=12306
 
-cron "4 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/exchangeRate.js, tag=实时货币换算
-
 cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/telecomInfinity.js, tag=中国电信套餐
 
 cron "30 9 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js, tag=腾讯新闻
@@ -22,11 +20,11 @@ cron "0 11 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts
 
 cron "0 11 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js, tag=微博&钱包
 
-cron "10 11 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/sinanews.js, tag=新浪新闻
-
 cron "20 11 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, tag=中青看点极速版
 
 cron "20 11 */5 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/Youth_Read.js, tag=中青看点阅读
+
+cron "20 11 */5 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth_gain.js, tag=中青看点看看赚
 
 cron "4 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/mydigit.js, tag=数码之家
 

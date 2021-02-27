@@ -30,9 +30,9 @@ https:\/\/m\.weibo\.cn\/c\/checkin\/ug\/v2\/signin\/module\?module script-path=h
 http-request https:\/\/api\.inews\.qq\.com\/event\/v1\/user\/event\/report\? script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js, requires-body=true, tag=腾讯新闻
 
 # 新浪新闻
-http-request https:\/\/newsapi\.sina\.cn\/\?resource=hbpage&newsId=HB-1-sina_gold_center script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/sinanews.js, tag=新浪新闻
+#http-request https:\/\/newsapi\.sina\.cn\/\?resource=hbpage&newsId=HB-1-sina_gold_center script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/sinanews.js, tag=新浪新闻
 
-http-request https:\/\/newsapi\.sina\.cn\/\?resource=userpoint\/signIn script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/sinanews.js, tag=新浪新闻
+#http-request https:\/\/newsapi\.sina\.cn\/\?resource=userpoint\/signIn script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/sinanews.js, tag=新浪新闻
 
 
 # 中青看点极速版
@@ -43,6 +43,10 @@ http-request https:\/\/ios\.baertt\.com\/v5\/article\/info\/get\.json script-pat
 http-request https:\/\/ios\.baertt\.com\/v5\/\w+\/withdraw\d?\.json script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, requires-body=true, tag=中青看点极速版
 
 http-request https:\/\/ios\.baertt\.com\/v5\/user\/stay\.json script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, requires-body=true, tag=中青看点极速版
+
+http-request https:\/\/ios\.baertt\.com\/v5\/Nameless\/adlickstart\.json script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth_gain.js, requires-body=true, tag=中青看点看看赚
+
+http-request https:\/\/ios\.baertt\.com\/v5\/task\/browse_start\.json script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth_gain.js, requires-body=true, tag=中青看点浏览赚
 
 # 中青看点自动阅读
 #http-request https:\/\/ios\.baertt\.com\/v5\/user\/stay\.json script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/Youth_Read.js, requires-body=true, tag=中青看点阅读

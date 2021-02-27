@@ -15,9 +15,6 @@
 # > 12306余票及列车时刻表查询
 12306 = type=cron,cronexp=0 0 8 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/trainquery.js
 
-# > 实时货币换算
-实时汇率 = type=cron,cronexp=35 5 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/exchangeRate.js,script-update-interval=0
-
 # > 中国电信套餐
 中国电信套餐 = type=cron,cronexp=50 4 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/telecomInfinity.js,script-update-interval=0
 
@@ -42,14 +39,14 @@
 # > 墨迹天气
 墨迹天气 = type=cron,cronexp=0 6 0-5/1 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/moji.js
 
-# > 新浪新闻
-新浪新闻 = type=cron,cronexp=0 5 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/sinanews.js
-
 # > 中青看点极速版 
-中青看点极速版 = type=cron,cronexp=35 */15 */3 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js,script-update-interval=0
+中青看点极速版 = type=cron,cronexp=35 */15 */3 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js,timeout=180,script-update-interval=0
 
 # > 中青看点自动阅读
-中青看点阅读 = type=cron,cronexp=*/5 */3 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/Youth_Read.js,script-update-interval=0
+中青看点阅读 = type=cron,cronexp=*/5 */3 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/Youth_Read.js,timeout=3600,script-update-interval=0
+
+# > 中青看点看看赚
+中青看点看看赚 = type=cron,cronexp=*/5 */3 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/Youth_Read.js,timeout=1800,script-update-interval=0
 
 # > 数码之家
 数码之家 = type=cron,cronexp=0 7 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/mydigit.js,script-update-interval=0
