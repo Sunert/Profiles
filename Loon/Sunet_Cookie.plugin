@@ -13,13 +13,15 @@ http-request http:\/\/api\.gaoqingdianshi\.com\/api\/v2\/cash\/withdrawal script
 # 快手视频
 http-request https:\/\/nebula\.kuaishou\.com\/rest\/n\/nebula\/activity\/earn\/overview script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js, tag=快手极速版
 
-https:\/\/activity\.m\.kuaishou\.com\/rest\/wd\/taskCenter\/\w+\/module\/list script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js, tag=快手极速版
+https:\/\/activity\.m\.kuaishou\.com\/rest\/wd\/taskCenter\/\w+\/module\/list script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js, tag=快手正式版
 
 # 来客有礼
 http-request https:\/\/draw\.jdfcloud\.com\/\/api\/bean\/square\/silverBean\/task\/get\? script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js, enable=false, tag=微信小程序 来客有礼
 
 # 中国电信套餐
-http-request ^https?:\/\/e\.189\.cn\/store\/user\/package_detail\.do script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/telecomInfinity.js, tag=中国电信套餐
+http-request ^https?:\/\/e\.189\.cn\/store\/user\/package_detail\.do script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/telecomSky.js, tag=中国电信套餐
+
+http-request https:\/\/mkt\.21cn\.com\/mkt\/api\/user\/queryActivityInfo\.do\?activityId=\d+ script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/telecomSky.js, tag=中国电信套餐
 
 # 新浪微博
 http-request https:\/\/api\.weibo\.cn\/\d\/users\/show script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js, tag=微博
@@ -56,12 +58,14 @@ http-request https:\/\/ios\.baertt\.com\/v5\/task\/browse_start\.json script-pat
 # 聚看点
 http-request https:\/\/www\.xiaodouzhuan\.cn\/jkd\/newMobileMenu\/infoMe\.action script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jukan.js, requires-body=true, tag=聚看点
 
-
 # 数码之家
 http-request id=k_misign:sign&operation=qiandao&format=text script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/mydigit.js, tag=数码之家
 
+# 百度极速
+http-request https:\/\/haokan\.baidu\.com\/activity\/h5\/vault\?productid=\d script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/baidu_speed.js, tag=百度极速版
+
 [MITM]
-hostname = ios.baertt.com, kd.youth.cn, daojia.jd.com, www.xiaodouzhuan.cn, nebula.kuaishou.com, draw.jdfcloud.com, e.189.cn, api.weibo.cn, api.inews.qq.com, newsapi.sina.cn, *.youth.cn, ios.baertt.com, www.mydigit.cn, activity.m.kuaishou.com, m.weibo.cn
+hostname = ios.baertt.com, kd.youth.cn, daojia.jd.com, www.xiaodouzhuan.cn, nebula.kuaishou.com, draw.jdfcloud.com, e.189.cn, api.weibo.cn, api.inews.qq.com, newsapi.sina.cn, *.youth.cn, ios.baertt.com, www.mydigit.cn, activity.m.kuaishou.com, m.weibo.cn, haokan.baidu.com, mkt.21cn.com
 
 
 

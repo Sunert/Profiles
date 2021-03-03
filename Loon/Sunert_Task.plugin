@@ -6,7 +6,7 @@ cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/
 
 cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/trainquery.js, tag=12306
 
-cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/telecomInfinity.js, tag=中国电信套餐
+cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/telecomSky.js, tag=中国电信套餐
 
 cron "30 9 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js, tag=腾讯新闻
 
