@@ -1,0 +1,8 @@
+DOMAIN-SUFFIX,msg.qy.net,REJECT
+DOMAIN-SUFFIX,51y5.net,REJECT
+DOMAIN,auction.unityads.unity.cn,REJECT
+DOMAIN-SUFFIX,ipahub.com,DIRECT
+DOMAIN-SUFFIX,iphonecake.com,DIRECT
+DOMAIN-SUFFIX,data.flurry.com,DIRECT
+DOMAIN,jdsharedresourcescdn.azureedge.net,PROXY
+DOMAIN-SUFFIX,qhimg.com,DIRECT
