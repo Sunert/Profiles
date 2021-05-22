@@ -41,20 +41,20 @@ http-request https:\/\/api\.prize\.qq\.com\/v1\/newsapp\/chajianrp\/sendprize sc
 # 中青看点极速版
 https:\/\/kd\.youth\.cn\/WebApi\/NewTaskIos\/getTaskList script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js, tag=中青看点极速版
 
-http-request https:\/\/ios\.baertt\.com\/v5\/article\/info\/get\.json script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js, requires-body=true, tag=中青看点极速版
+http-request https:\/\/kandian\.wkandian\.com\/v5\/article\/info\.json script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js, requires-body=true, tag=中青看点极速版
 
-http-request https:\/\/ios\.baertt\.com\/v5\/\w+\/withdraw\d?\.json script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js, requires-body=true, tag=中青看点极速版
+http-request https:\/\/kandian\.wkandian\.com\/v5\/\w+\/withdraw\d?\.json script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js, requires-body=true, tag=中青看点极速版
 
-http-request https:\/\/ios\.baertt\.com\/v5\/user\/stay\.json script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js, requires-body=true, tag=中青看点极速版
+http-request https:\/\/kandian\.wkandian\.com\/v5\/user\/stay\.json script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js, requires-body=true, tag=中青看点极速版
 
-http-request https:\/\/ios\.baertt\.com\/v5\/Nameless\/adlickstart\.json script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth_gain.js, requires-body=true, tag=中青看点看看赚
+http-request https:\/\/kandian.wkandian.com\/v5\/Nameless\/adlickstart\.json script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth_gain.js, requires-body=true, tag=中青看点看看赚
 
-http-request https:\/\/ios\.baertt\.com\/v5\/task\/browse_start\.json script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth_gain.js, requires-body=true, tag=中青看点浏览赚
+http-request https:\/\/kandian\.wkandian\.com\/v5\/task\/browse_start\.json script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth_gain.js, requires-body=true, tag=中青看点浏览赚
 
 # 中青看点自动阅读
-#http-request https:\/\/ios\.baertt\.com\/v5\/user\/stay\.json script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/Youth_Read.js, requires-body=true, tag=中青看点阅读
+#http-request https:\/\/kandian\.wkandian\.com\/v5\/user\/stay\.json script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/Youth_Read.js, requires-body=true, tag=中青看点阅读
 
-#http-request https:\/\/ios\.baertt\.com\/v5\/article\/info\/get\.json script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/Youth_Read.js, tag=中青看点阅读
+#http-request https:\/\/kandian\.wkandian\.com\/v5\/article\/info\.json script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/Youth_Read.js, tag=中青看点阅读
 
 # 聚看点
 http-request https:\/\/www\.xiaodouzhuan\.cn\/jkd\/newMobileMenu\/infoMe\.action script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/jukan.js, requires-body=true, tag=聚看点
@@ -66,7 +66,7 @@ http-request id=k_misign:sign&operation=qiandao&format=text script-path=https://
 http-request https:\/\/haokan\.baidu\.com\/activity\/h5\/vault\?productid=\d script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/baidu_speed.js, tag=百度极速版
 
 [MITM]
-hostname = ios.baertt.com, kd.youth.cn, daojia.jd.com, www.xiaodouzhuan.cn, nebula.kuaishou.com, draw.jdfcloud.com, e.189.cn, api.weibo.cn, api.inews.qq.com, newsapi.sina.cn, *.youth.cn, ios.baertt.com, www.mydigit.cn, activity.m.kuaishou.com, m.weibo.cn, haokan.baidu.com, mkt.21cn.com
+hostname = kandian.wkandian.com, kd.youth.cn, daojia.jd.com, www.xiaodouzhuan.cn, nebula.kuaishou.com, draw.jdfcloud.com, e.189.cn, api.weibo.cn, api.inews.qq.com, newsapi.sina.cn, *.youth.cn, ios.baertt.com, www.mydigit.cn, activity.m.kuaishou.com, m.weibo.cn, haokan.baidu.com, mkt.21cn.com
 
 
 

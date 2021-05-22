@@ -14,17 +14,17 @@
 
 # 中青看点
 中青看点 = type=https:\/\/kd\.youth\.cn\/WebApi\/NewTaskIos\/getTaskList,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js
-中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/article\/info\/get\.json,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js
-中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/\w+\/withdraw\d?\.json,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js, requires-body=true
-中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/user\/stay\.json,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js, requires-body=true
+中青看点 = type=http-request,pattern=https:\/\/kandian\.wkandian\.com\/v5\/article\/info\.json,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js
+中青看点 = type=http-request,pattern=https:\/\/kandian\.wkandian\.com\/v5\/\w+\/withdraw\d?\.json,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js, requires-body=true
+中青看点 = type=http-request,pattern=https:\/\/kandian\.wkandian\.com\/v5\/user\/stay\.json,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js, requires-body=true
 
 # 中青看点自动阅读
-#中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/user\/stay\.json,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/Youth_Read.js, requires-body=true
-#中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/article\/info\/get\.json,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/Youth_Read.js, requires-body=true
+#中青看点 = type=http-request,pattern=https:\/\/kandian\.wkandian\.com\/v5\/user\/stay\.json,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/Youth_Read.js, requires-body=true
+#中青看点 = type=http-request,pattern=https:\/\/kandian\.wkandian\.com\/v5\/article\/info\.json,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/Youth_Read.js, requires-body=true
 
 # 中青看点看看赚
-中青看点浏览赚 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/task\/browse_start\.json,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth_gain.js, requires-body=true
-中青看点看看赚 = type=https:\/\/ios\.baertt\.com\/v5\/Nameless\/adlickstart\.json,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth_gain.js, requires-body=true
+中青看点浏览赚 = type=http-request,pattern=https:\/\/kandian\.wkandian\.com\/v5\/task\/browse_start\.json,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth_gain.js, requires-body=true
+中青看点看看赚 = type=https:\/\/kandian\.wkandian\.com\/v5\/Nameless\/adlickstart\.json,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth_gain.js, requires-body=true
 # 腾讯新闻
 腾讯新闻 = type=http-request,pattern=https:\/\/api\.inews\.qq\.com\/event\/v1\/user\/event\/report\?,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/txnews.js, requires-body=true
 腾讯新闻 = type=http-request,pattern=https:\/\/api\.prize\.qq\.com\/v1\/newsapp\/chajianrp\/sendprize,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/txnews.js
@@ -58,7 +58,7 @@
 京东到家 = script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/jddj.js,type=https:\/\/daojia\.jd\.com\/client\?_jdrandom=\d{13}&functionId=%2Fsignin
 
 [MITM]
-hostname = %APPEND% www.mydigit.cn, *.youth.cn, ios.baertt.com, api.inews.qq.com, newsapi.sina.cn, api.weibo.cn, pay.sc.weibo.com, nebula.kuaishou.com, draw.jdfcloud.com, e.189.cn, www.xiaodouzhuan.cn, daojia.jd.com, m.weibo.cn, activity.m.kuaishou.com
+hostname = %APPEND% www.mydigit.cn, *.youth.cn, kandian.wkandian.com, api.inews.qq.com, newsapi.sina.cn, api.weibo.cn, pay.sc.weibo.com, nebula.kuaishou.com, draw.jdfcloud.com, e.189.cn, www.xiaodouzhuan.cn, daojia.jd.com, m.weibo.cn, activity.m.kuaishou.com
 
 
 
